@@ -15,10 +15,9 @@
     <h1><%= link_to CONFIG['title'], root_url %></h1>
     <span><%= CONFIG['tagline'].html_safe %></span>
 
-    <p>
-    <img src="http://joshkerr.s3.amazonaws.com/tumblr/images/joshkerr.jpg">
-  </p>
-
+    
+      <img id="joshphoto" src="http://joshkerr.s3.amazonaws.com/tumblr/images/joshkerr.jpg">
+    
     <ul>
       <% if CONFIG['twitter'] %>
         <li><%= link_to '@' + CONFIG['twitter'], 'http://twitter.com/' + CONFIG['twitter'] %></li>
