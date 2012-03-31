@@ -1,27 +1,2 @@
 /* Insert your custom theme here */
 
-header h1 a{
-	background: blue;
-	display:block;
-	padding: 0 20px 20px 0;
-	text-align:right;
-	font-weight:normal;
-	font-size:600px;
-	line-height:1em;
-	color:white;
-}
-
-header h1{
-	margin: 0;
-	height: 500px;
-	overflow: hidden;
-}
-
-header {
-	position: fixed !important;
-	width: 400px !important;
-	height: 717px;
-	top:0px !important;
-	left:0px !important;
-	display:block;
-}
