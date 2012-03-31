@@ -18,10 +18,10 @@ header h1{
 }
 
 header {
-	position: fixed;
-	width: 400px;
+	position: fixed !important;
+	width: 400px !important;
 	height: 717px;
-	top:0px;
-	left:0px;
+	top:0px !important;
+	left:0px !important;
 	display:block;
 }
