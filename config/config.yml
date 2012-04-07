@@ -3,7 +3,7 @@ title:               Josh Kerr
 tagline:             Startups + Mobility + Geekery
 login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "joshkerr" %>
 password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "rrek1209" %>
-name:                Your name
+name:                Josh Kerr
 twitter:             joshkerr
 github:              joshkerr
 email:               joshkerr@gmail.com
