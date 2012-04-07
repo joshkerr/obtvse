@@ -1,11 +1,16 @@
 /* Insert your custom theme here */
-
-
 #description-photo{
-	background-image: url(http://joshkerr.s3.amazonaws.com/images/joshkerr-150px);
+	background-image: 1pxurl(http://joshkerr.s3.amazonaws.com/images/joshkerr-150px);
 	width: 150px;
 	height: 140px;
 	margin-bottom: 20px;
+}
+
+#description-photo-box{
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	 box-shadow: 0 8px 6px -6px #ccc;
 }
 
 #description-text {
@@ -14,3 +19,18 @@
 	line-height: 1.5em;
 	margin-bottom: 20px;
 }
+
+#description-tag {
+	color: #bbb;
+	font-size: .9em;
+	width: 190px;
+	line-height: 1.0em;
+	margin-top: -15px;
+	margin-bottom: 20px;
+	margin-left: -15px;
+}
+
+blockquote{
+	border-left-color: red;
+}
+
