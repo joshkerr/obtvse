@@ -15,13 +15,15 @@
   <header>
     <h1><%= link_to CONFIG['title'], root_url %></h1>
 	
+	<span id="description-tag"><%= CONFIG['tagline'].html_safe %></span>
+	
 	<div id="description-photo"></div>
 	
 	<div id="description-text">
 Entrepreneur - sold last company to YouSendIt, iOS developer, mobile expert, Capital Factory mentor, live music nut, car fanatic, with a moviestar girlfriend.
 		</div>
 	
-    <span><%= CONFIG['tagline'].html_safe %></span>
+
     <ul>
       <% if CONFIG['twitter'] %>
         <li><%= link_to '@' + CONFIG['twitter'], 'http://twitter.com/' + CONFIG['twitter'] %></li>
