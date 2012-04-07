@@ -13,8 +13,8 @@
 <body class="<%= controller_name %> <%= action_name %>">
   <% unless @no_header %>
   <header>
-    <h1><%= link_to CONFIG['title'], root_url %></h1>
-	
+    <h1 id="description-title"><%= link_to CONFIG['title'], root_url %></h1>
+
 	<div id="description-tag"><%= CONFIG['tagline'].html_safe %></div>
 	
 	<div id="description-photo-box"><div id="description-photo"></div></div>
