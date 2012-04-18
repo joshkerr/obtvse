@@ -45,6 +45,7 @@ TODO
 - Easy deployment
 - Draft preview and post save history
 - Lots of refactoring, cleanup and refinements
+- Make a better theme
 
 
 
