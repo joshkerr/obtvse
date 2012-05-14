@@ -25,3 +25,11 @@ production:
     username:
     password:
     host: localhost
+
+wordpress:
+ adapter: mysql
+ encoding: utf8
+ database: wordpress
+ username: wp_user
+ password: Argus1809.
+ host: kerr.tv
