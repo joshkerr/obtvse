@@ -1,17 +1,20 @@
 /* Insert your custom theme here */
 #description-photo{
-	background-image: 1pxurl(http://joshkerr.s3.amazonaws.com/images/joshkerr-150px);
+	background-image: url(http://joshkerr.s3.amazonaws.com/images/joshkerr-150px);
 	width: 150px;
 	height: 140px;
-	margin-bottom: 20px;
 }
 
 #description-photo-box{
+	margin-bottom: 20px;
+	width:150px;
+	height:140px;
+	padding:0px;
 	border: 1px solid #ccc;
 	-webkit-box-shadow: 0 0 6px 4px #666;
 	   -moz-box-shadow: 0 0 6px 4px #666;
 	        box-shadow: 0 0 6px 4px #666;
-		}
+}
 		
 #description-text {
 	width: 160px;
